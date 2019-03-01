@@ -1,0 +1,26 @@
+.grid-container {
+    display: grid;
+    grid-template-columns:  repeat(10, 40px); 
+    background-color: #abcee9;
+    padding: 0px 0px 0px 0px;
+  }
+  div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(114, 138, 167, 0.8);
+    padding: 0px;
+    text-align: center;
+    height: 32px;
+    width: 32px;
+
+  }
+
+  li {
+    list-style: none;
+    display: inline;
+  }
+
+  
+  p{
+    background-color: chartreuse;
+    visibility: hidden;
+  }
